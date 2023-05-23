@@ -22,8 +22,6 @@ class _SignUpFirstPageState extends ConsumerState<SignUpFirstPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     final l10n = AppLocalizations.of(context);
-    print(size.height);
-    print(size.width);
 
     return SafeArea(
       child: GestureDetector(
