@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:control/features/auth/signIn.dart';
-import 'package:control/features/auth/signUpFirst.dart';
-import 'package:control/features/auth/signUpSecond.dart';
+// import 'package:control/features/auth/signIn.dart';
+// import 'package:control/features/auth/signUpFirst.dart';
+// import 'package:control/features/auth/signUpSecond.dart';
+import 'package:control/features/sale/sale.dart';
 
 final changeLanguage = StateProvider((ref) => 1);
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends ConsumerWidget {
         scaffoldBackgroundColor: const Color(0xFF292929),
       ),
       debugShowCheckedModeBanner: false,
-      home: SignUpSecondPage(),
+      home: SalePage(),
     );
   }
 }
