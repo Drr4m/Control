@@ -10,7 +10,8 @@
     "ogrnip" : "PSRNSP",
     "organizationName" : "Organization name",
     "nextButton" : "Next",
-    "singUpLogin" : "Create a llogin and password",
+    "create" : "Create",
+    "logAndPass" : "login and password",
     "confirmPassword" : "Confirm password",
 
 

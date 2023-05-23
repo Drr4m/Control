@@ -13,14 +13,13 @@ abstract class AppColors {
 }
 
 const textFieldStyle = InputDecoration(
+    border: InputBorder.none,
     labelStyle: TextStyle(color: AppColors.yellow),
     enabledBorder: UnderlineInputBorder(
-        borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(4), bottomRight: Radius.circular(4)),
-        borderSide: BorderSide(color: AppColors.yellow, width: 8)),
+        borderSide: BorderSide(color: AppColors.yellow, width: 4)),
     focusedBorder: UnderlineInputBorder(
-        borderSide: BorderSide(color: AppColors.yellow, width: 8)),
+        borderSide: BorderSide(color: AppColors.yellow, width: 4)),
     disabledBorder: UnderlineInputBorder(
-        borderSide: BorderSide(color: AppColors.yellow, width: 8)),
+        borderSide: BorderSide(color: AppColors.yellow, width: 4)),
     errorBorder: UnderlineInputBorder(
-        borderSide: BorderSide(color: AppColors.red, width: 8)));
+        borderSide: BorderSide(color: AppColors.red, width: 4)));

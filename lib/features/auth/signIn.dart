@@ -2,10 +2,10 @@ import 'package:control/core/ui/textField.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../core/themes/theme.dart';
+import '../../core/themes/theme.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../core/ui/InUpButton.dart';
+import '../../core/ui/InUpButton.dart';
 
 final changeLanguage = StateProvider((ref) => 0);
 
@@ -30,7 +30,7 @@ class _SignInPageState extends ConsumerState<SignInPage> {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(height: size.height * 0.118484),
+              SizedBox(height: size.height * 0.1184834),
               Center(
                 child: SvgPicture.asset(
                   "assets/images/logo.svg",
@@ -38,7 +38,7 @@ class _SignInPageState extends ConsumerState<SignInPage> {
                   width: size.width * 0.19231,
                 ),
               ),
-              SizedBox(height: size.height * 0.154028),
+              SizedBox(height: size.height * 0.1184834),
               Container(
                 alignment: Alignment.center,
                 margin: EdgeInsets.fromLTRB(
@@ -53,7 +53,7 @@ class _SignInPageState extends ConsumerState<SignInPage> {
                       ),
                       TextButton(
                           style: TextButton.styleFrom(
-                              padding: EdgeInsets.fromLTRB(0, 0, 0, 0)),
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 0)),
                           onPressed: () {},
                           child: Text(
                             l10n.signUp,

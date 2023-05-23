@@ -1,9 +1,11 @@
-import 'package:control/SignIn/signIn.dart';
 import 'package:control/l10n/all_locale.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:control/features/auth/signIn.dart';
+import 'package:control/features/auth/signUpFirst.dart';
+import 'package:control/features/auth/signUpSecond.dart';
 
 final changeLanguage = StateProvider((ref) => 1);
 void main() {
@@ -31,7 +33,8 @@ class MyApp extends ConsumerWidget {
         fontFamily: 'Comfortaa',
         scaffoldBackgroundColor: const Color(0xFF292929),
       ),
-      home: SignInPage(),
+      debugShowCheckedModeBanner: false,
+      home: SignUpSecondPage(),
     );
   }
 }
