@@ -10,7 +10,8 @@
     "ogrnip" : "ОГРНИП",
     "organizationName" : "Название организации",
     "nextButton" : "Далее",
-    "singUpLogin" : "Придумайте логин и пароль",
+    "create" : "Придумайте",
+    "logAndPass" : "логин и пароль",
     "confirmPassword" : "Подтвердите пароль",
 
 
