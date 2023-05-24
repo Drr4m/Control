@@ -6,7 +6,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 // import 'package:control/features/auth/signIn.dart';
 // import 'package:control/features/auth/signUpFirst.dart';
 // import 'package:control/features/auth/signUpSecond.dart';
-import 'package:control/features/sale/sale.dart';
+// import 'package:control/features/sale/sale.dart';
+import 'package:control/features/basket/basket.dart';
 
 final changeLanguage = StateProvider((ref) => 1);
 void main() {
@@ -35,7 +36,7 @@ class MyApp extends ConsumerWidget {
         scaffoldBackgroundColor: const Color(0xFF292929),
       ),
       debugShowCheckedModeBanner: false,
-      home: SalePage(),
+      home: BasketPage(),
     );
   }
 }
