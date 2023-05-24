@@ -155,7 +155,7 @@ class _SalePageState extends ConsumerState<SalePage> {
                       color: AppColors.yellow,
                       border: Border.all(color: AppColors.yellow),
                       borderRadius: BorderRadius.all(Radius.circular(100))),
-                  padding: EdgeInsets.all(size.width * Correlation.width * 30),
+                  padding: EdgeInsets.all(size.width * Correlation.width * 25),
                   alignment: AlignmentDirectional.bottomEnd,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
