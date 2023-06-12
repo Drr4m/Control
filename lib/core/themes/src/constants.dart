@@ -4,6 +4,7 @@ const text23 = TextStyle(fontWeight: FontWeight.w400, fontSize: 23);
 const text20 = TextStyle(fontWeight: FontWeight.w400, fontSize: 20);
 const text20bold = TextStyle(fontWeight: FontWeight.w700, fontSize: 20);
 const text18 = TextStyle(fontWeight: FontWeight.w400, fontSize: 18);
+const text18bold = TextStyle(fontWeight: FontWeight.w700, fontSize: 18);
 const text14 = TextStyle(fontWeight: FontWeight.w400, fontSize: 14);
 
 abstract class AppColors {

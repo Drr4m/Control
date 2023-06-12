@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/themes/theme.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
+import 'package:control/core/ui/productInBasket.dart';
 import '../../core/ui/InUpButton.dart';
 
 final changeLanguage = StateProvider((ref) => 0);
@@ -72,39 +72,7 @@ class _BasketPageState extends ConsumerState<BasketPage> {
                 height: 30,
                 color: AppColors.yellow,
               ),
-              Container(
-                decoration: BoxDecoration(
-                    border: Border.all(color: AppColors.yellow),
-                    borderRadius: BorderRadius.circular(5)),
-                child: Row(children: [
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Text(
-                          "1.  Напиток Добрый Cola ",
-                          style: text18.copyWith(color: AppColors.yellow),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(0.0),
-                    child: Column(
-                      children: [
-                        Text(
-                          "196,00",
-                          style: text20bold.copyWith(color: AppColors.yellow),
-                        ),
-                        Text(
-                          "98,00 х 2",
-                          style: text14.copyWith(color: AppColors.white),
-                        ),
-                      ],
-                    ),
-                  )
-                ]),
-              ),
+              ProductInBasket(),
               Expanded(
                   child: Column(
                 children: [
